@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Road Setter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="bulma-0.7.2/bulma-0.7.2/css/bulma.min.css" />
+    <style>
+        .hero {
+            background: black url(tesla.jpg);
+        }
+
+        @media (max-width: 1024px) {
+            .hero {
+                background: black url(tesla.jpg) center / cover;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                background: black url(tesla.jpg) center / cover;
+            }
+        }
+
+        /* responsive */
+        @media (max-width: 768px) {
+            :root {
+                font-size: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- .hero -->
+    <section class="hero is-fullheight">
+
+        <!-- .hero-head -->
+        <nav class="hero-head">
+            <div class="columns is-mobile is-marginless heading has-text-weight-bold">
+                <div class="column left">
+                    <figure class="navbar-item image">
+                        <img src="tesla.jpg" style="width: 6.25rem; height: 1rem;">
+                    </figure>
+                </div>
+                <div class="column center desktop">
+                    <p class="navbar-item has-text-black">MODEL S </p>
+                    <p class="navbar-item has-text-black">MODEL X </p>
+                    <p class="navbar-item has-text-black">MODEL 3 </p>
+                    <p class="navbar-item has-text-white">ROADSTER</p>
+                    <p class="navbar-item has-text-black">ENERGY </p>
+                </div>
+                <div class="column right">
+                    <p class="navbar-item desktop has-text-black desktop">SHOP </p>
+                    <p class="navbar-item desktop has-text-black desktop">SIGN IN</p>
+                    <figure class="navbar-item image">
+                        <i class="fas fa-3x fa-bars has-text-black" style="width: 1rem; height: 1rem;"></i>
+                    </figure>
+                </div>
+            </div>
+        </nav>
+        <!-- /.hero-head -->
+
+        <!-- .hero-body -->
+        <header class="hero-body">
+            <div class="is-overlay has-text-centered single-spaced" style="top: 92px;">
+                <h2 class="subtitle is-4 has-text-weight-light has-text-black">Tesla</h2>
+                <h1 class="title is-1 has-text-black">Roadster</h1>
+            </div>
+        </header>
+        <!-- /.hero-body -->
+
+    </section>
+</body>
+
+</html>
